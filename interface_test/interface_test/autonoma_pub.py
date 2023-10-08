@@ -1,6 +1,6 @@
 import rclpy
 from rclpy.node import Node
-from autoware_auto_msgs.msg import PowertrainData, RaceControl, ToRaptor, VehicleData, VehicleInputs
+from autonoma_msgs.msg import PowertrainData, RaceControl, ToRaptor, VehicleData, VehicleInputs
 from std_msgs.msg import Header
 
 class MsgPublisher(Node):
